@@ -1,0 +1,322 @@
+des	x	y	type
+Single	102.98	87.87	H
+Flyout	145.11	53.98	O
+Groundout	108.57	149.75	O
+Flyout	214.66	0	O
+Single	108.84	137.85	H
+Flyout	172.51	65.35	O
+Groundout	83.95	99.85	O
+Groundout	130.39	197.55	O
+Groundout	98.58	97.43	O
+Single	162.17	125.57	H
+Groundout	83.04	132.58	O
+Groundout	114.76	161.1	O
+Groundout	129.65	158.33	O
+Single	83.2	130.43	H
+Lineout	102.52	146.2	O
+Flyout	199.41	95.86	O
+Groundout	113.65	152.8	O
+Groundout	110.1	152.8	O
+Groundout	128.36	182.8	O
+Single	141.02	152.17	H
+Single	152.22	125.35	H
+Groundout	129.38	180.77	O
+Groundout	127.79	196.97	O
+Groundout	130.62	184.98	O
+Bunt Groundout	135.02	189.05	O
+Single	188.83	119.36	H
+Pop Out	150.61	153.7	O
+Double	221.32	107.15	H
+Single	163.95	111.9	H
+Single	114.85	176.89	H
+Single	169.69	111.77	H
+Single	79.5	114.22	H
+Double	186.06	138.85	H
+Double	199.54	117.83	H
+Groundout	112.63	160.43	O
+Groundout	109.08	157.89	O
+Single	179.62	103.99	H
+Lineout	200.11	83.99	O
+Lineout	177.08	81.62	O
+Double	160.82	62.52	H
+Single	121.43	163.62	H
+Single	127.86	142.64	H
+Single	174.77	110.59	H
+Flyout	190.62	95.85	O
+Lineout	150.61	159.81	O
+Flyout	189.97	84.18	O
+Flyout	164.89	65.61	O
+Field Error	108.31	175.24	E
+Single	143.41	99	H
+Groundout	127.67	182.51	O
+Groundout	114.36	155.88	O
+Flyout	79.23	68.14	O
+Home Run	63.42	30.29	H
+Groundout	107.7	155.64	O
+Home Run	55.76	41.97	H
+Single	119.2	190.74	H
+Single	96.17	123.27	H
+Groundout	149.68	157.89	O
+Single	118.72	155.86	H
+Flyout	103.63	47.64	O
+Groundout	124.93	199.33	O
+Flyout	184.92	72.72	O
+Groundout	109.08	170.09	O
+Single	175.05	131.45	H
+Home Run	32.38	81.27	H
+Single	134.45	145.69	H
+Single	166.17	122.3	H
+Groundout	125.27	202.48	O
+Groundout	119.38	196.86	O
+Double	62.39	144.16	H
+Lineout	132.52	70.96	O
+Home Run	217.59	72.09	H
+Groundout	114.16	157.89	O
+Groundout	115.17	151.79	O
+Groundout	113.14	154.33	O
+Pop Out	179.11	168.57	O
+Groundout	144.6	152.3	O
+Single	97.67	143.17	H
+Pop Out	134.87	143.27	O
+Groundout	101.47	177.72	O
+Flyout	192.51	111.53	O
+Lineout	182.83	114.39	O
+Flyout	248	72.77	O
+Groundout	125.86	248	O
+Groundout	120.06	248	O
+Single	146.6	141.41	H
+Single	91.84	137.73	H
+Home Run	57.4	32.29	H
+Lineout	113.63	140.09	O
+Flyout	73.76	87.33	O
+Single	116.19	103.48	H
+Flyout	160.99	98.81	O
+Groundout	126.22	200.47	O
+Groundout	125.94	202.07	O
+Groundout	131.82	169.27	O
+Groundout	125.32	181.28	O
+Groundout	142.81	144.95	O
+Groundout	107.61	152.42	O
+Groundout	101.52	153.95	O
+Double	53.8	95.46	H
+Groundout	130.45	179.38	O
+Single	61.1	110.21	H
+Flyout	197.93	146.32	O
+Groundout	133.28	157.82	O
+Lineout	95.69	168.19	O
+Single	170.97	115.8	H
+Groundout	109.93	156.49	O
+Flyout	180.73	129.75	O
+Groundout	110.44	174.8	O
+Flyout	176.25	89.41	O
+Pop Out	118.98	193.12	O
+Flyout	104.67	28.96	O
+Flyout	73.48	100.3	O
+Single	92.29	81.49	H
+Pop Out	145.17	160.05	O
+Flyout	201.65	97.16	O
+Single	65.98	115.29	H
+Error	65.98	115.29	E
+Home Run	82.02	23.91	H
+Single	175.63	103.09	H
+Groundout	108.62	181.42	O
+Double	77.62	162.08	H
+Triple	109.25	29.86	H
+Triple	79.91	40.69	H
+Double	186.5	131.72	H
+Single	156.16	111.31	H
+Groundout	115.26	137.9	O
+Groundout	114.16	154.33	O
+Groundout	146.12	161.67	O
+Single	59.2	140.86	H
+Groundout	103.82	168.11	O
+Home Run	36.09	80.12	H
+Flyout	195.8	90.51	O
+Pop Out	152.69	161.3	O
+Double	46.66	114.67	H
+Lineout	80.16	73.57	O
+Flyout	169.47	88.23	O
+Flyout	156.29	78.11	O
+Field Error	59.35	126.36	E
+Flyout	118.13	76.26	O
+Groundout	132.93	148.23	O
+Flyout	177.63	122.95	O
+Double	38.04	104.5	H
+Pop Out	75.49	124.16	O
+Lineout	88.62	104.45	O
+Single	90.84	83.16	H
+Flyout	79.11	91.54	O
+Groundout	106.54	170.09	O
+Groundout	131.41	193.99	O
+Lineout	208.31	100.88	O
+Double	130.39	27.72	H
+Double	96.73	171.19	H
+Groundout	104.01	152.8	O
+Single	131.69	95.09	H
+Groundout	144.06	138.28	O
+Single	123.29	173.14	H
+Pop Out	180.13	165.52	O
+Lineout	106.66	32.48	O
+Double	202.91	116.96	H
+Groundout	132.87	147.08	O
+Flyout	107.37	29.4	O
+Single	181.25	117.57	H
+Single	114.5	186.05	H
+Groundout	110.54	149.35	O
+Single	116.96	137.66	H
+Single	74	102.48	H
+Single	150.97	83.94	H
+Single	98.37	146.74	H
+Error	98.37	146.74	E
+Pop Out	155.83	193.04	O
+Single	150.15	87.87	H
+Groundout	97.4	169.16	O
+Groundout	103.4	166.03	O
+Single	105.95	112.28	H
+Double	101.27	95.34	H
+Groundout	106.04	160.94	O
+Single	152.44	94.67	H
+Single	159.62	33.41	H
+Groundout	106.04	152.8	O
+Groundout	112.31	143.39	O
+Home Run	53.08	41.14	H
+Groundout	91.32	170.6	O
+Groundout	108.07	180.77	O
+Double	154.28	82.57	H
+Single	122.09	98.6	H
+Groundout	105.53	157.89	O
+Groundout	110.06	158.22	O
+Flyout	120.75	73.99	O
+Groundout	109.19	144.41	O
+Single	175.54	102.14	H
+Bunt Groundout	142.07	186.36	O
+Pop Out	151.62	153.35	O
+Single	91.32	167.55	H
+Groundout	95.89	169.58	O
+Flyout	131.28	85.14	O
+Groundout	109.62	143.61	O
+Lineout	144.1	96.36	O
+Home Run	97.87	18.73	H
+Groundout	115.68	164.5	O
+Lineout	0	0	O
+Flyout	129.92	86.88	O
+Single	125.28	202.91	H
+Flyout	192.76	79.92	O
+Single	116.85	99.13	H
+Flyout	160.45	40.11	O
+Single	80.96	108.33	H
+Groundout	115.68	151.79	O
+Flyout	199.92	139.58	O
+Groundout	100.81	151.2	O
+Pop Out	128.27	138.77	O
+Lineout	70.14	105	O
+Groundout	141.03	140.78	O
+Flyout	174.4	122.13	O
+Pop Out	180.01	141.18	O
+Groundout	97.92	166.02	O
+Double	182.72	147.05	H
+Single	125.95	203.13	H
+Double	67.97	67.86	H
+Single	138.51	185.86	H
+Groundout	129.38	180.26	O
+Double	179.42	147.69	H
+Double	176.07	144.67	H
+Home Run	76.55	23.77	H
+Flyout	186.22	118.23	O
+Groundout	99.43	176.34	O
+Double	88.56	31.49	H
+Lineout	148.56	144.74	O
+Single	99.66	152.8	H
+Lineout	133.65	51.47	O
+Lineout	203.31	93.82	O
+Groundout	135.92	182.39	O
+Single	123.75	199.69	H
+Lineout	169.52	51.81	O
+Groundout	110.65	172.26	O
+Flyout	182.19	68.18	O
+Home Run	220.64	79.18	H
+Lineout	182.26	93.98	O
+Groundout	106.9	177.76	O
+Lineout	180.53	70.36	O
+Single	114.16	156.87	H
+Lineout	153.86	162.08	O
+Single	83.71	101.96	H
+Single	141.96	178.36	H
+Single	129.27	107.66	H
+Single	77.62	110.09	H
+Lineout	125.8	119.55	O
+Groundout	103.33	180.7	O
+Single	167.22	106.5	H
+Groundout	97.33	169.26	O
+Groundout	105.26	143.81	O
+Groundout	110.32	153.75	O
+Single	95.87	145.63	H
+Double	169.34	50.37	H
+Single	117.32	107.49	H
+Lineout	137.79	69.56	O
+Groundout	125.78	182.13	O
+Groundout	149.61	167.94	O
+Groundout	97.9	171.99	O
+Groundout	110.06	151.71	O
+Lineout	139.03	87.37	O
+Single	72.04	125.86	H
+Lineout	94.5	162.08	O
+Groundout	103.98	173.51	O
+Groundout	102.46	171.99	O
+Home Run	80.05	40.47	H
+Groundout	112.18	152.42	O
+Home Run	68.6	32.44	H
+Home Run	32.48	74.6	H
+Single	89.11	98.3	H
+Single	63.55	113.1	H
+Groundout	141.49	146.65	O
+Single	119.96	80.66	H
+Single	175.97	95.95	H
+Single	110.06	170.98	H
+Groundout	137.95	146.14	O
+Bunt Groundout	115.13	179.09	O
+Flyout	147.08	79.85	O
+Lineout	126.45	41.63	O
+Single	117.88	143.07	H
+Single	77.85	107.38	H
+Single	99.54	95.08	H
+Single	66.68	116.71	H
+Groundout	139.86	145.91	O
+Single	113.11	115.01	H
+Groundout	97.02	171.25	O
+Groundout	114.84	159.8	O
+Groundout	132.08	152.2	O
+Lineout	110.34	59.38	O
+Field Error	97.6	168.42	E
+Groundout	104.19	170.45	O
+Flyout	151.52	59.51	O
+Flyout	140.69	47.26	O
+Groundout	108.76	156.76	O
+Single	73.78	121.28	H
+Home Run	47.41	75.65	H
+Groundout	104.19	167.92	O
+Home Run	211.64	70.31	H
+Groundout	107.4	151.07	O
+Single	73.44	104.94	H
+Flyout	173.82	86.69	O
+Flyout	220.96	120.15	O
+Groundout	135.29	145.5	O
+Home Run	94.22	32.95	H
+Groundout	131.23	153.1	O
+Flyout	153.39	47.63	O
+Double	75.16	53.29	H
+Groundout	110.95	150.57	O
+Groundout	129.12	142.2	O
+Groundout	126.42	147.76	O
+Groundout	98.79	168.82	O
+Flyout	164.21	43.49	O
+Single	95.74	122.68	H
+Home Run	91.69	25.35	H
+Double	92.7	87.7	H
+Flyout	135.79	50.19	O
+Groundout	109.64	161.85	O
+Groundout	104.87	168.31	O
+Groundout	105.88	164.76	O
+Groundout	153.54	173.89	O
+Flyout	133.26	74.52	O
+Pop Out	168.24	195.18	O
