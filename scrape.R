@@ -7,13 +7,13 @@ con <- dbConnect(MySQL(),
 
 start_time <- Sys.time()
 # Regular Season 2015 Players
-mlb2016 <- scrape(start="2015-04-01", end="2015-11-02", suffix = "players.xml", connect=con)
+mlb2015 <- scrape(start="2015-04-01", end="2015-11-02", suffix = "players.xml", connect=con)
 
 # Regular Season 2015 Hitting
-mlb2016 <- scrape(start="2015-04-01", end="2015-11-02", suffix = "inning/inning_hit.xml", connect=con)
+mlb2015 <- scrape(start="2015-04-01", end="2015-11-02", suffix = "inning/inning_hit.xml", connect=con)
 
 # Regular Season 2015 All Plays
-mlb2016 <- scrape(start="2015-04-01", end="2015-11-02", suffix = "inning/inning_all.xml", connect=con)
+mlb2015 <- scrape(start="2015-04-01", end="2015-11-02", suffix = "inning/inning_all.xml", connect=con)
 
 # Regular Season 2016 Players
 mlb2016 <- scrape(start="2016-04-01", end="2016-11-02", suffix = "players.xml", connect=con)
