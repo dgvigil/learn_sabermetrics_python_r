@@ -1,5 +1,6 @@
 import pandas as pd
 import matplotlib.pyplot as plt
+import seaborn as sns
 
 # Get all of the data into the all_altuve DataFrame
 all_altuve = pd.read_csv("Altuve-2016-hitting.csv")
@@ -10,26 +11,14 @@ bip = bip[ bip['type'] != 'E']
 
 bip_types = bip.groupby('des')
 # Start the plots
-bip.plot.scatter(x='x', y='y')
+#bip.plot.scatter(x='x', y='y')
 
 fig, ax = plt.subplots()
 ax.margins(0.05) # Optional, just adds 5% padding to the autoscaling
 for name, group in bip_types:
-    #ax.plot(group.x, group.y, marker='o', linestyle='', ms=12, label=name)
-    ax.plot(group.x, group.y, linestyle='', label=name)
+    ax.plot(group.x, group.y, marker='o', linestyle='', ms=3, label=name)
 ax.legend()
 plt.show()
+plt.clf()
 
 
-# Plot
-plt.rcParams.update(pd.tools.plotting.mpl_stylesheet)
-colors = pd.tools.plotting._get_standard_colors(len(bip_types), color_type='random')
-
-fig, ax = plt.subplots()
-ax.set_color_cycle(colors)
-ax.margins(0.05)
-for name, group in bip_types:
-    ax.plot(group.x, group.y, marker='o', linestyle='', ms=12, label=name)
-ax.legend(numpoints=1, loc='upper left')
-
-plt.show()
