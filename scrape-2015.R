@@ -20,5 +20,5 @@ endtime <- Sys.time()
 
 on.exit(dbDisconnect(con))
 
-starttime
+start_time
 endtime
