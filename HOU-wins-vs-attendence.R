@@ -44,7 +44,5 @@ five_hundered_line <- data.frame(date=x,five_hun=y)
 # Let's plot
 ggplot(data=HOU, aes(x=full_date))+
     geom_line(data=five_hundered_line,aes(x=date,y=five_hun), size=2)+
-    geom_line(aes(y=(HOU_w / (HOU_l + HOU_w))))+
-    geom_line(aes(y=ATTEND_PARK_CT))
-
+    geom_line(aes(y=(HOU_w / (HOU_l + HOU_w))))
 

@@ -16,7 +16,7 @@ Vagrant.configure("2") do |config|
     apt-get update
     update-alternatives --install /usr/bin/python python /usr/bin/python3 10
     update-alternatives --install /usr/bin/pip pip /usr/bin/pip3 10
-    apt-get install -y --force-yes python3-pip python3-dev python3-tk
+    apt-get install -y  python3-pip python3-dev python3-tk
     pip install pandas matplotlib numpy sklearn
   SHELL
 end
