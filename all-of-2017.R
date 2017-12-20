@@ -1,7 +1,7 @@
 library(dplyr)
 
-events <- read.csv("2017-events.csv")
-games <- read.csv("2017-games.csv")
+events <- read.csv("data/2017-events.csv")
+games <- read.csv("data/2017-games.csv")
 data <- inner_join(events,games,by=c("GAME_ID")) %>%
   mutate(year=substr(GAME_DT,1,4)) %>%
   mutate(month=substr(GAME_DT,5,6)) %>%

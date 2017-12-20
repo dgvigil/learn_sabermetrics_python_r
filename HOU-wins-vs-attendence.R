@@ -3,7 +3,7 @@ library(ggplot2)
 library(dplyr)
 
 # Build the dataframe from the csv with a good date
-games <- read.csv("2017-games.csv")%>%
+games <- read.csv("data/2017-games.csv")%>%
   mutate(year=substr(GAME_DT,1,4)) %>%
   mutate(month=substr(GAME_DT,5,6)) %>%
   mutate(day=substr(GAME_DT,7,8)) %>%

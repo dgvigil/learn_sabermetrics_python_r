@@ -3,7 +3,7 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 
-ALL_MLB = pd.read_csv("2017-games.csv")
+ALL_MLB = pd.read_csv("data/2017-games.csv")
 
 # Fixing the date
 for count in range(len(ALL_MLB['GAME_DT'])):

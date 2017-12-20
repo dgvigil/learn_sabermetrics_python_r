@@ -1,8 +1,8 @@
 library(ggplot2)
 library(dplyr) 
 
-# Import all of the data from the Altuve-2016-hitting.csv file
-altuve2016_all <- read.csv("Altuve-2016-hitting.csv", header = TRUE, sep = ',')
+# Import all of the data from the data/Altuve-2016-hitting.csv file
+altuve2016_all <- read.csv("data/Altuve-2016-hitting.csv", header = TRUE, sep = ',')
 
 # Let's just get hits and filter out all the outs
 hits <- filter(altuve2016_all, type == 'H')

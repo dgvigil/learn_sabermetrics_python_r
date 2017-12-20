@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 # Get all of the data into the all_altuve DataFrame
-all_altuve = pd.read_csv("Altuve-2016-hitting.csv")
+all_altuve = pd.read_csv("data/Altuve-2016-hitting.csv")
 
 # Let's get "Balls In Play" and filter out everything that is a out or error
 bip = all_altuve[ all_altuve['type'] != 'O']

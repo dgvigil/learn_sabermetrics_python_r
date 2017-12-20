@@ -1,6 +1,6 @@
 library(dplyr)
 
-games <- read.csv("2017-games.csv")
+games <- read.csv("data/2017-games.csv")
 games <- mutate(games, year=substr(games$GAME_DT,1,4))
 games <- mutate(games, month=substr(games$GAME_DT,5,6))
 games <- mutate(games, day=substr(games$GAME_DT,7,8))
