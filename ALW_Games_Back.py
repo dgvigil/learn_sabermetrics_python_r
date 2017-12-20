@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+""" This tracks the amount of games back for the AL West in 2017 """
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
@@ -38,33 +38,33 @@ ALW = ALW.assign(LOSING_TEAM_ID=LOSING_TEAM_ID)
 
 # HOU CumSum
 HOU_WIN = ALW.apply(lambda x: "HOU" in x['WINNING_TEAM_ID'], axis=1)
-HOU_Ls = ALW.apply(lambda x: "HOU" in x['LOSING_TEAM_ID'], axis=1)
+HOU_LS = ALW.apply(lambda x: "HOU" in x['LOSING_TEAM_ID'], axis=1)
 HOU_WINS = HOU_WIN.cumsum()
-HOU_Loses = HOU_Ls.cumsum()
+HOU_LOSES = HOU_LS.cumsum()
 
 # ANA CumSum
 ANA_WIN = ALW.apply(lambda x: "ANA" in x['WINNING_TEAM_ID'], axis=1)
-ANA_Ls = ALW.apply(lambda x: "ANA" in x['LOSING_TEAM_ID'], axis=1)
+ANA_LS = ALW.apply(lambda x: "ANA" in x['LOSING_TEAM_ID'], axis=1)
 ANA_WINS = ANA_WIN.cumsum()
-ANA_Loses = ANA_Ls.cumsum()
+ANA_LOSES = ANA_LS.cumsum()
 
 # SEA CumSum
 SEA_WIN = ALW.apply(lambda x: "SEA" in x['WINNING_TEAM_ID'], axis=1)
-SEA_Ls = ALW.apply(lambda x: "SEA" in x['LOSING_TEAM_ID'], axis=1)
+SEA_LS = ALW.apply(lambda x: "SEA" in x['LOSING_TEAM_ID'], axis=1)
 SEA_WINS = SEA_WIN.cumsum()
-SEA_Loses = SEA_Ls.cumsum()
+SEA_LOSES = SEA_LS.cumsum()
 
 # TEX CumSum
 TEX_WIN = ALW.apply(lambda x: "TEX" in x['WINNING_TEAM_ID'], axis=1)
-TEX_Ls = ALW.apply(lambda x: "TEX" in x['LOSING_TEAM_ID'], axis=1)
+TEX_LS = ALW.apply(lambda x: "TEX" in x['LOSING_TEAM_ID'], axis=1)
 TEX_WINS = TEX_WIN.cumsum()
-TEX_Loses = TEX_Ls.cumsum()
+TEX_LOSES = TEX_LS.cumsum()
 
 # OAK CumSum
 OAK_WIN = ALW.apply(lambda x: "OAK" in x['WINNING_TEAM_ID'], axis=1)
-OAK_Ls = ALW.apply(lambda x: "OAK" in x['LOSING_TEAM_ID'], axis=1)
+OAK_LS = ALW.apply(lambda x: "OAK" in x['LOSING_TEAM_ID'], axis=1)
 OAK_WINS = OAK_WIN.cumsum()
-OAK_Loses = OAK_Ls.cumsum()
+OAK_LOSES = OAK_LS.cumsum()
 
 # Gather all we've just calculated
 WINS_ONLY = pd .concat([HOU_WINS, ANA_WINS, SEA_WINS, TEX_WINS, OAK_WINS],
@@ -118,13 +118,12 @@ for index, row in WINS_ONLY.iterrows():
     else:
         OAK_GB.append(0)
 
-Games_back = pd.DataFrame(np.column_stack([HOU_GB, ANA_GB, SEA_GB, TEX_GB,
+GAMES_BACK = pd.DataFrame(np.column_stack([HOU_GB, ANA_GB, SEA_GB, TEX_GB,
                                            OAK_GB]),
                           columns=['HOU_GB', 'ANA_GB', 'SEA_GB', 'TEX_GB',
                                    'OAK_GB'])
-FRAMES = [DATES, Games_back]
+FRAMES = [DATES, GAMES_BACK]
 ALW_GB = pd.concat(FRAMES, axis=1)
-plt.figure()
 ALW_GB.plot()
 plt.legend(loc='best')
 plt.show()
