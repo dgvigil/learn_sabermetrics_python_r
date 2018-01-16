@@ -2,6 +2,7 @@
 import glob
 import os
 import pandas as pd
+import matplotlib.pyplot as plt
 
 PATH = r'./data'
 ALL_FILES = glob.glob(os.path.join(PATH, "attendence-stadium-*.csv"))
@@ -24,6 +25,6 @@ ATTENDENCE = ATTENDENCE.reset_index(drop=True)
 HOU03 = ATTENDENCE.loc[ATTENDENCE['PARK_ID'] == "HOU03"]
 print("SUMMARY of Attedence at Minute Maid Park")
 print(HOU03.describe())
-#HOU_GRAPH = HOU03.groupby(HOU03.YEAR.dt.year)
-#HOU_GRAPH.plot.box()
-print(HOU03.head())
+HOU_GRAPH = HOU03.groupby(HOU03.YEAR)
+HOU03.boxplot(by='YEAR')
+plt.show()
