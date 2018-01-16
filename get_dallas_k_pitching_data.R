@@ -27,5 +27,3 @@ game21 <- scrape("2017-09-16", "2017-09-16")
 game22 <- scrape("2017-09-21", "2017-09-21") 
 game23 <- scrape("2017-09-26", "2017-09-26") 
 
-pre_dl <- bind_rows(list(game01, game02, game03, game04, game05, game06, game07, game08, game09, game10, game11))
-head(pre_dl)
