@@ -23,8 +23,12 @@ ATTENDENCE = ATTENDENCE.sort_values(by='GAME_DT')
 ATTENDENCE = ATTENDENCE.reset_index(drop=True)
 
 HOU03 = ATTENDENCE.loc[ATTENDENCE['PARK_ID'] == "HOU03"]
-print("SUMMARY of Attedence at Minute Maid Park")
+print("SUMMARY of Attendance at Minute Maid Park")
 print(HOU03.describe())
 HOU_GRAPH = HOU03.groupby(HOU03.YEAR)
 HOU03.boxplot(by='YEAR')
+fig = plt.gcf()
+fig.set_size_inches(18.5, 10.5)
 plt.show()
+fig.savefig('Attendance_at_Minute_Maid_Park.png', dpi=100)
+
