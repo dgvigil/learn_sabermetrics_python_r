@@ -1,0 +1,22 @@
+require(devtools)
+library(dplyr)
+library(RMySQL)
+if (!require(knitr)) install_github('yihui/knitr')
+if (!require(pitchRx)) install_github('cpsievert/pitchRX')
+opts_chunk$set(fig.path="figure/", cache.path="cache/", dev='CairoPNG', fig.align='center', fig.width=8, fig.height=7, fig.cap='', warning=FALSE, message=FALSE, tidy=FALSE)
+
+drv <- dbDriver("MySQL");
+MLB <- dbConnect(drv, user="htown", password="Thel0ve0fchrist!", port=3306, dbname="mlb", host="localhost");
+files <- c("inning/inning_hit.xml", "players.xml","miniscoreboard.xml")
+mlbz <- scrape(start = "2008-01-01", end = "2009-01-01", suffix = files , connect=MLB, async = TRUE)
+mlbz <- scrape(start = "2009-01-01", end = "2010-01-01", suffix = files , connect=MLB, async = TRUE)
+mlbz <- scrape(start = "2010-01-01", end = "2011-01-01", suffix = files , connect=MLB, async = TRUE)
+mlbz <- scrape(start = "2011-01-01", end = "2012-01-01", suffix = files , connect=MLB, async = TRUE)
+mlbz <- scrape(start = "2012-01-01", end = "2013-01-01", suffix = files , connect=MLB, async = TRUE)
+mlbz <- scrape(start = "2013-01-01", end = "2014-01-01", suffix = files , connect=MLB, async = TRUE)
+mlbz <- scrape(start = "2014-01-01", end = "2015-01-01", suffix = files , connect=MLB, async = TRUE)
+mlbz <- scrape(start = "2015-01-01", end = "2016-01-01", suffix = files , connect=MLB, async = TRUE)
+mlbz <- scrape(start = "2016-01-01", end = "2017-01-01", suffix = files , connect=MLB, async = TRUE)
+mlbz <- scrape(start = "2017-01-01", end = "2018-01-01", suffix = files , connect=MLB, async = TRUE)
+mlbz <- scrape(start = "2018-01-01", end = Sys.Date(), suffix = files , connect=MLB, async = TRUE)
+print("Completed Players")
